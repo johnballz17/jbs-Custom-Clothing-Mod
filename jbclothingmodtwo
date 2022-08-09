@@ -1,0 +1,814 @@
+class CfgPatches
+{
+	class LitClothing
+	{
+		units[]={};
+		weapons[]={};
+		requiredVersion=0.1;
+		requiredAddons[]=
+		{
+			"DZ_Characters",
+			"DZ_Characters_Backpacks",
+			"DZ_Characters_Pants",
+			"DZ_Characters_Tops",
+			"DZ_Gear_Containers",
+			"DZ_Characters_Headgear",
+			"DZ_Data"
+		};
+	};
+};
+class cfgVehicles
+
+{
+	
+	
+	
+	class Bandana_ColorBase;
+	class Bandana_Moist: Bandana_ColorBase
+	{
+		scope=2;
+		displayName="Moist Bandana";
+		descriptionShort="Join our Discord https://discord.gg/R4Musscp";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\bandancustom.paa",
+			 "\ProjectAKM\Clothes\bandancustom.paa",
+			 "\ProjectAKM\Clothes\bandancustom.paa"
+		};
+	};
+	
+	class Bandana_LitLit: Bandana_ColorBase
+	{
+		scope=2;
+		displayName="Moist Bandana";
+		descriptionShort="Join our Discord https://discord.gg/R4Musscp";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\bandanaLitLit.paa",
+			 "\ProjectAKM\Clothes\bandanaLitLit.paa",
+			 "\ProjectAKM\Clothes\bandanaLitLit.paa"
+		};
+	};
+	
+		class Bandana_LitLittwo: Bandana_ColorBase
+	{
+		scope=2;
+		displayName="Moist Bandana";
+		descriptionShort="Join our Discord https://discord.gg/R4Musscp";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\bandanaLitLittwo.paa",
+			 "\ProjectAKM\Clothes\bandanaLitLittwo.paa",
+			 "\ProjectAKM\Clothes\bandanaLitLittwo.paa"
+		};
+	};
+			class Bandana_custompattern: Bandana_ColorBase
+	{
+		scope=2;
+		displayName="Moist Bandana";
+		descriptionShort="Join our Discord https://discord.gg/R4Musscp";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\bandancustompattern.paa",
+			 "\ProjectAKM\Clothes\bandancustompattern.paa",
+			 "\ProjectAKM\Clothes\bandancustompattern.paa"
+		};
+	};
+	
+		class M65Jacket_ColorBase;
+			class M65Jacket_jbx: M65Jacket_ColorBase
+	{
+		scope=2;
+		displayName="M65Jacket";
+		descriptionShort="Join our Discord https://discord.gg/R4Musscp";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\m65jacketjbxFOXAGON.paa",
+			 "\ProjectAKM\Clothes\m65jacketjbxFOXAGON.paa",
+			 "\ProjectAKM\Clothes\m65jacketjbxFOXAGON.paa"
+		};
+	};
+			
+			class M65Jacket_jbxx: M65Jacket_ColorBase
+	{
+		scope=2;
+		displayName="M65Jacket";
+		descriptionShort="Join our Discord https://discord.gg/R4Musscp";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\m65jacketjbxGreendots.paa",
+			 "\ProjectAKM\Clothes\m65jacketjbxGreendots.paa",
+			 "\ProjectAKM\Clothes\m65jacketjbxGreendots.paa"
+		};
+		
+	};
+	
+				class M65Jacket_jbxxw: M65Jacket_ColorBase
+	{
+		scope=2;
+		displayName="M65Jacket";
+		descriptionShort="Join our Discord https://discord.gg/R4Musscp";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\m65jacketjbxGreenmots.paa",
+			 "\ProjectAKM\Clothes\m65jacketjbxGreenmots.paa",
+			 "\ProjectAKM\Clothes\m65jacketjbxGreenmots.paa"
+		};
+		
+	};
+	
+					class M65Jacket_jb3: M65Jacket_ColorBase
+	{
+		scope=2;
+		displayName="M65Jacket";
+		descriptionShort="Join our Discord https://discord.gg/R4Musscp";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\m65jacketjbxRedBluedots.paa",
+			 "\ProjectAKM\Clothes\m65jacketjbxRedBluedots.paa",
+			 "\ProjectAKM\Clothes\m65jacketjbxRedBluedots.paa"
+		};
+		
+	};
+	
+						class M65Jacket_jb4: M65Jacket_ColorBase
+	{
+		scope=2;
+		displayName="M65Jacket";
+		descriptionShort="Join our Discord https://discord.gg/R4Musscp";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\m65jacketjbxADMIN.paa",
+			 "\ProjectAKM\Clothes\m65jacketjbxADMIN.paa",
+			 "\ProjectAKM\Clothes\m65jacketjbxADMIN.paa"
+		};
+		
+	};
+	
+							class M65Jacket_jb5: M65Jacket_ColorBase
+	{
+		scope=2;
+		displayName="M65Jacket";
+		descriptionShort="Join our Discord https://discord.gg/R4Musscp";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\m65jacketjbxBEANMIX.paa",
+			 "\ProjectAKM\Clothes\m65jacketjbxBEANMIX.paa",
+			 "\ProjectAKM\Clothes\m65jacketjbxBEANMIX.paa"
+		};
+		
+	};
+		
+		class M65Jacket_jb6: M65Jacket_ColorBase
+	{
+		scope=2;
+		displayName="M65Jacket";
+		descriptionShort="Join our Discord https://discord.gg/R4Musscp";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\m65jacketjbxCAMOMIXTWO.paa",
+			 "\ProjectAKM\Clothes\m65jacketjbxCAMOMIXTWO.paa",
+			 "\ProjectAKM\Clothes\m65jacketjbxCAMOMIXTWO.paa"
+		};
+		
+	};
+	
+	class M65Jacket_jb7: M65Jacket_ColorBase
+	{
+		scope=2;
+		displayName="M65Jacket";
+		descriptionShort="Join our Discord https://discord.gg/R4Musscp";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\m65jacketjbxREDCAMO.paa",
+			 "\ProjectAKM\Clothes\m65jacketjbxREDCAMO.paa",
+			 "\ProjectAKM\Clothes\m65jacketjbxREDCAMO.paa"
+		};
+		
+	};
+	
+		class M65Jacket_jb8: M65Jacket_ColorBase
+	{
+		scope=2;
+		displayName="M65Jacket";
+		descriptionShort="Join our Discord https://discord.gg/R4Musscp";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\m65jacketjbxWOODSCAMO.paa",
+			 "\ProjectAKM\Clothes\m65jacketjbxWOODSCAMO.paa",
+			 "\ProjectAKM\Clothes\m65jacketjbxWOODSCAMO.paa"
+		};
+		
+	};
+	
+			class M65Jacket_jb9: M65Jacket_ColorBase
+	{
+		scope=2;
+		displayName="M65Jacket";
+		descriptionShort="Join our Discord https://discord.gg/R4Musscp";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\m65jacketjbxREDCAMOpURPLEMIX.paa",
+			 "\ProjectAKM\Clothes\m65jacketjbxREDCAMOpURPLEMIX.paa",
+			 "\ProjectAKM\Clothes\m65jacketjbxREDCAMOpURPLEMIX.paa"
+		};
+		
+	};
+	
+	class M65Jacket_jb10: M65Jacket_ColorBase
+	{
+		scope=2;
+		displayName="M65Jacket";
+		descriptionShort="Join our Discord https://discord.gg/R4Musscp";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\m65jacketjbxCAMMOGTB.paa",
+			 "\ProjectAKM\Clothes\m65jacketjbxCAMMOGTB.paa",
+			 "\ProjectAKM\Clothes\m65jacketjbxCAMMOGTB.paa"
+		};
+		
+	};
+		
+			class M65Jacket_jb11: M65Jacket_ColorBase
+	{
+		scope=2;
+		displayName="Grass Jacket";
+		descriptionShort="Join our Discord https://discord.gg/R4Musscp";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\m65jacketjbxgRASS.paa",
+			 "\ProjectAKM\Clothes\m65jacketjbxgRASS.paa",
+			 "\ProjectAKM\Clothes\m65jacketjbxgRASS.paa"
+		};
+		
+	};
+	
+				class M65Jacket_jbrock: M65Jacket_ColorBase
+	{
+		scope=2;
+		displayName="Rock Jacket";
+		descriptionShort="Join our Discord https://discord.gg/R4Musscp";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\m65jacketjbxrock.paa",
+			 "\ProjectAKM\Clothes\m65jacketjbxrock.paa",
+			 "\ProjectAKM\Clothes\m65jacketjbxrock.paa"
+		};
+		
+	};
+		
+		class CargoPants_ColorBase;
+			class CargoPants_jbGrasspantss: CargoPants_ColorBase
+	{
+		scope=2;
+		displayName="Grass Pants";
+		descriptionShort="Join our Discord https://discord.gg/R4Musscp";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\Cargopantsgrass.paa",
+			 "\ProjectAKM\Clothes\Cargopantsgrass.paa",
+			 "\ProjectAKM\Clothes\Cargopantsgrass.paa"
+		};
+	};
+	
+	
+	
+	class CargoPants_jbrockpants: CargoPants_ColorBase
+	{
+		scope=2;
+		displayName="Rock Pants";
+		descriptionShort="Join our Discord https://discord.gg/R4Musscp";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\Cargopantsrock.paa",
+			 "\ProjectAKM\Clothes\Cargopantsrock.paa",
+			 "\ProjectAKM\Clothes\Cargopantsrock.paa"
+		};
+	};
+	
+	
+	
+	
+	
+	
+	class CombatBoots_ColorBase;
+	class CombatBoots_jbGrassBoots: CombatBoots_ColorBase
+	{
+		scope=2;
+		displayName="Grass Boots";
+		descriptionShort="Join our Discord https://discord.gg/R4Musscp";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\combatbootsgrass.paa",
+			 "\ProjectAKM\Clothes\combatbootsgrass.paa",
+			 "\ProjectAKM\Clothes\combatbootsgrass.paa"
+		};
+	};
+	
+	
+	
+		class CombatBoots_jbrockBoots: CombatBoots_ColorBase
+	{
+		scope=2;
+		displayName="Rock Boots";
+		descriptionShort="Join our Discord https://discord.gg/R4Musscp";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\combatbootsrock.paa",
+			 "\ProjectAKM\Clothes\combatbootsrock.paa",
+			 "\ProjectAKM\Clothes\combatbootsrock.paa"
+		};
+	};
+	
+		
+		
+			
+	
+		class TacticalGloves_ColorBase;
+		class TacticalGloves_jbGrassGloves: TacticalGloves_ColorBase
+	{
+		scope=2;
+		displayName="Grass Gloves";
+		descriptionShort="Join our Discord https://discord.gg/R4Musscp";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\Tacglovesgrass.paa",
+			 "\ProjectAKM\Clothes\Tacglovesgrass.paa",
+			 "\ProjectAKM\Clothes\Tacglovesgrass.paa"
+		};
+	};
+	
+	
+	
+	
+	class TacticalGloves_jbrockGloves: TacticalGloves_ColorBase
+	{
+		scope=2;
+		displayName="Rock Gloves";
+		descriptionShort="Join our Discord https://discord.gg/R4Musscp";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\Tacglovesrock.paa",
+			 "\ProjectAKM\Clothes\Tacglovesrock.paa",
+			 "\ProjectAKM\Clothes\Tacglovesrock.paa"
+		};
+	};
+	
+	
+	
+		
+ 
+		class BalaclavaMask_ColorBase;
+		class BalaclavaMask_jbGrassMask: BalaclavaMask_ColorBase
+	{
+		scope=2;
+		displayName="Grass Mask";
+		descriptionShort="Join our Discord https://discord.gg/R4Musscp";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\balaclavagrass.paa",
+			 "\ProjectAKM\Clothes\balaclavagrass.paa",
+			 "\ProjectAKM\Clothes\balaclavagrass.paa"
+		};
+		};
+		
+		
+	class BalaclavaMask_jbrockMask: BalaclavaMask_ColorBase
+	{
+		scope=2;
+		displayName="Rock Mask";
+		descriptionShort="Join our Discord https://discord.gg/R4Musscp";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\balaclavarock.paa",
+			 "\ProjectAKM\Clothes\balaclavarock.paa",
+			 "\ProjectAKM\Clothes\balaclavarock.paa"
+		};
+		};
+		
+		
+		class MountainBag_ColorBase;
+		class MountainBag_jbMTNBag: MountainBag_ColorBase
+		{
+		scope=2;
+		displayName="Gras Mountain Backpack";
+		descriptionShort="Join our Discord https://discord.gg/R4Musscp";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\MTNbaggrass.paa",
+			 "\ProjectAKM\Clothes\MTNbaggrass.paa",
+			 "\ProjectAKM\Clothes\MTNbaggrass.paa"
+		};
+		};
+		
+			class MountainBag_jbMTNBagrock: MountainBag_ColorBase
+		{
+		scope=2;
+		displayName="Rock Mountain Backpack";
+		descriptionShort="Join our Discord https://discord.gg/R4Musscp";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\MTNbagrock.paa",
+			 "\ProjectAKM\Clothes\MTNbagrock.paa",
+			 "\ProjectAKM\Clothes\MTNbagrock.paa"
+		};
+		};
+ class AliceBag_ColorBase;
+ class AliceBag_this: AliceBag_ColorBase
+	{
+		scope=2;
+		displayName="redtshirttwo";
+		descriptionShort="redtshirttwo";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\alicebackpackmoney.paa",
+			 "\ProjectAKM\Clothes\alicebackpackmoney.paa",
+			 "\ProjectAKM\Clothes\alicebackpackmoney.paa"
+		};
+	};
+	class AliceBag_thisalicebackbushcamo: AliceBag_ColorBase
+	{
+		scope=2;
+		displayName="alicebackbushcamo";
+		descriptionShort="alicebackbushcamo";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\alicebackbushcamo.paa",
+			 "\ProjectAKM\Clothes\alicebackbushcamo.paa",
+			 "\ProjectAKM\Clothes\alicebackbushcamo.paa"
+		};
+	};
+		class Tshirt_ColorBase;
+		class Tshirt_this: Tshirt_ColorBase
+	{
+		scope=2;
+		displayName="redtshirttwo";
+		descriptionShort="redtshirttwo";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\redtshirt.paa",
+			 "\ProjectAKM\Clothes\redtshirt.paa",
+			 "\ProjectAKM\Clothes\redtshirt.paa"
+		};
+		};
+		
+		class Tshirt_thistwo: Tshirt_ColorBase
+	{
+		scope=2;
+		displayName="redtshirttwo";
+		descriptionShort="redtshirttwo";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\CARPESTARPES.paa",
+			 "\ProjectAKM\Clothes\CARPESTARPES.paa",
+			 "\ProjectAKM\Clothes\CARPESTARPES.paa"
+		};
+		};
+			
+			class M65Jacket_this: M65Jacket_ColorBase
+	{
+		scope=2;
+		displayName="M65Jacket";
+		descriptionShort="M65Jacket";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\m65jacketredbleu.paa",
+			 "\ProjectAKM\Clothes\m65jacketredbleu.paa",
+			 "\ProjectAKM\Clothes\m65jacketredbleu.paa"
+		};
+	};
+			
+			class M65Jacket_thismoney: M65Jacket_ColorBase
+	{
+		scope=2;
+		displayName="M65Jacket";
+		descriptionShort="M65Jacket";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\m65jacketmoney.paa",
+			 "\ProjectAKM\Clothes\m65jacketmoney.paa",
+			 "\ProjectAKM\Clothes\m65jacketmoney.paa"
+		};
+	};
+	
+				class M65Jacket_thisBUILT: M65Jacket_ColorBase
+	{
+		scope=2;
+		displayName="M65Jacket";
+		descriptionShort="M65Jacket";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\m65jacketbuilt.paa",
+			 "\ProjectAKM\Clothes\m65jacketbuilt.paa",
+			 "\ProjectAKM\Clothes\m65jacketbuilt.paa"
+		};
+	};
+		class M65Jacket_thisBanana: M65Jacket_ColorBase
+	{
+		scope=2;
+		displayName="M65Jacket";
+		descriptionShort="M65Jacket";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\m65jacketbanana.paa",
+			 "\ProjectAKM\Clothes\m65jacketbanana.paa",
+			 "\ProjectAKM\Clothes\m65jacketbanana.paa"
+		};
+	};
+	
+		class M65Jacket_thiscamojacket: M65Jacket_ColorBase
+	{
+		scope=2;
+		displayName="M65Jacket";
+		descriptionShort="M65Jacket";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\m65camojacket.paa",
+			 "\ProjectAKM\Clothes\m65camojacket.paa",
+			 "\ProjectAKM\Clothes\m65camojacket.paa"
+		};
+	};
+	
+			class M65Jacket_thiscamoleafjacket: M65Jacket_ColorBase
+	{
+		scope=2;
+		displayName="M65Jacket";
+		descriptionShort="M65Jacket";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\m65jacketleafscamo.paa",
+			 "\ProjectAKM\Clothes\m65jacketleafscamo.paa",
+			 "\ProjectAKM\Clothes\m65jacketleafscamo.paa"
+		};
+	};
+	
+				class M65Jacket_thism65jacketbushcamo: M65Jacket_ColorBase
+	{
+		scope=2;
+		displayName="M65Jacket";
+		descriptionShort="M65Jacket";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\m65jacketbushcamo.paa",
+			 "\ProjectAKM\Clothes\m65jacketbushcamo.paa",
+			 "\ProjectAKM\Clothes\m65jacketbushcamo.paa"
+		};
+	};
+		class M65Jacket_thism65jacketgrassy: M65Jacket_ColorBase
+	{
+		scope=2;
+		displayName="M65Jacket";
+		descriptionShort="M65Jacket";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\m65jacketgrassy.paa",
+			 "\ProjectAKM\Clothes\m65jacketgrassy.paa",
+			 "\ProjectAKM\Clothes\m65jacketgrassy.paa"
+		};
+	};
+		class M65Jacket_thismm65jacketTancamo: M65Jacket_ColorBase
+	{
+		scope=2;
+		displayName="M65Jacket";
+		descriptionShort="M65Jacket";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\m65jacketTancamo.paa",
+			 "\ProjectAKM\Clothes\m65jacketTancamo.paa",
+			 "\ProjectAKM\Clothes\m65jacketTancamo.paa"
+		};
+	};
+			class M65Jacket_this65jacketTancamopattern: M65Jacket_ColorBase
+	{
+		scope=2;
+		displayName="M65Jacket";
+		descriptionShort="M65Jacket";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\m65jacketTancamopattern.paa",
+			 "\ProjectAKM\Clothes\m65jacketTancamopattern.paa",
+			 "\ProjectAKM\Clothes\m65jacketTancamopattern.paa"
+		};
+	};
+				class M65Jacket_thism65jacketlTealball: M65Jacket_ColorBase
+	{
+		scope=2;
+		displayName="M65Jacket";
+		descriptionShort="M65Jacket";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\m65jacketlTealball.paa",
+			 "\ProjectAKM\Clothes\m65jacketlTealball.paa",
+			 "\ProjectAKM\Clothes\m65jacketlTealball.paa"
+		};
+	};
+	
+	class M65Jacket_thismm65jacketTanPatternMoist: M65Jacket_ColorBase
+	{
+		scope=2;
+		displayName="M65Jacket";
+		descriptionShort="M65Jacket";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\m65jacketTanPatternMoist.paa",
+			 "\ProjectAKM\Clothes\m65jacketTanPatternMoist.paa",
+			 "\ProjectAKM\Clothes\m65jacketTanPatternMoist.paa"
+		};
+	};
+		class M65Jacket_thism65jacketteecamo: M65Jacket_ColorBase
+	{
+		scope=2;
+		displayName="M65Jacket";
+		descriptionShort="M65Jacket";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\m65jacketteecamo.paa",
+			 "\ProjectAKM\Clothes\m65jacketteecamo.paa",
+			 "\ProjectAKM\Clothes\m65jacketteecamo.paa"
+		};
+	};
+	
+	
+	
+	
+			class FirefighterJacket_ColorBase;
+			class FirefighterJacket_this: FirefighterJacket_ColorBase
+	{
+		scope=2;
+		displayName="firefighter";
+		descriptionShort="firefighter";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\firefighterNOface.paa",
+			 "\ProjectAKM\Clothes\firefighterNOface.paa",
+			 "\ProjectAKM\Clothes\firefighterNOface.paa"
+		};
+	};
+			
+			class CargoPants_this: CargoPants_ColorBase
+	{
+		scope=2;
+		displayName="CargoPants";
+		descriptionShort="CargoPants";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\cargopantsgmoney.paa",
+			 "\ProjectAKM\Clothes\cargopantsgmoney.paa",
+			 "\ProjectAKM\Clothes\cargopantsgmoney.paa"
+		};
+	};
+	
+			class CargoPants_thiscargopantsbushcamo: CargoPants_ColorBase
+	{
+		scope=2;
+		displayName="cargopantsbushcamo";
+		descriptionShort="cargopantsbushcamo";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\cargopantsbushcamo.paa",
+			 "\ProjectAKM\Clothes\cargopantsbushcamo.paa",
+			 "\ProjectAKM\Clothes\cargopantsbushcamo.paa"
+		};
+	};
+			
+			class CombatBoots_this: CombatBoots_ColorBase
+	{
+		scope=2;
+		displayName="combatbootsmoney";
+		descriptionShort="combatbootsmoney";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\combatbootsmoney.paa",
+			 "\ProjectAKM\Clothes\combatbootsmoney.paa",
+			 "\ProjectAKM\Clothes\combatbootsmoney.paa"
+		};
+	};
+	class CombatBoots_thiscombatbootsbushcamo: CombatBoots_ColorBase
+	{
+		scope=2;
+		displayName="combatbootsbushcamo";
+		descriptionShort="combatbootsbushcamo";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\combatbootsbushcamo.paa",
+			 "\ProjectAKM\Clothes\combatbootsbushcamo.paa",
+			 "\ProjectAKM\Clothes\combatbootsbushcamo.paa"
+		};
+	};
+			
+			class TacticalGloves_this: TacticalGloves_ColorBase
+	{
+		scope=2;
+		displayName="tacticalglovesmoney";
+		descriptionShort="tacticalglovesmoney";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\tacticalglovesmoney.paa",
+			 "\ProjectAKM\Clothes\tacticalglovesmoney.paa",
+			 "\ProjectAKM\Clothes\tacticalglovesmoney.paa"
+		};
+	};
+		
+	class TacticalGloves_thistacticalglovesbushcamo: TacticalGloves_ColorBase
+	{
+		scope=2;
+		displayName="tacticalglovesbushcamo";
+		descriptionShort="tacticalglovesbushcamo";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\tacticalglovesbushcamo.paa",
+			 "\ProjectAKM\Clothes\tacticalglovesbushcamo.paa",
+			 "\ProjectAKM\Clothes\tacticalglovesbushcamo.paa"
+		};
+	};
+	
+	
+			class BalaclavaMask_This: BalaclavaMask_ColorBase
+	{
+		scope=2;
+		displayName="BalaclavaMask";
+		descriptionShort="BalaclavaMask";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\tacticalglovesmoney.paa",
+			 "\ProjectAKM\Clothes\tacticalglovesmoney.paa",
+			 "\ProjectAKM\Clothes\tacticalglovesmoney.paa"
+		};
+	};
+	class BalaclavaMask_Thisbalaclavabushcamo: BalaclavaMask_ColorBase
+	{
+		scope=2;
+		displayName="balaclavabushcamo";
+		descriptionShort="balaclavabushcamo";
+		visibilityModifier=0.94999999;
+		hiddenSelectionsTextures[]=
+		{
+			"\ProjectAKM\Clothes\balaclavabushcamo.paa",
+			 "\ProjectAKM\Clothes\balaclavabushcamo.paa",
+			 "\ProjectAKM\Clothes\balaclavabushcamo.paa"
+		};
+	};
+		
+ 
+
+	
+
+};	
+
+	
+	
+
+
+
